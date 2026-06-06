@@ -1,0 +1,28 @@
+
+.name{
+text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(243, 245, 255);
+}
+.left{
+    width: 75%;
+    background-color: grey;
+    padding: 20px;
+    color: black;
+}
+.right{
+    width: 20%;
+    border-right:1px solid black;
+    padding: 20px;
+    background-color: rgb(19, 17, 42);
+}
+hr{
+    background-color: white;
+    height: 2px;
+    border: none;
+    margin: 10px 0;
+}
+

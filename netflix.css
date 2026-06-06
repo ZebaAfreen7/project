@@ -1,0 +1,117 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    position:absolute;
+    top:0;
+    width: 90%;
+    padding: 20px 50px;
+    z-index: 10;
+    color: rgb(209, 21, 21);
+}
+.sign-in{
+  padding: 1px 15px;
+  font-size: 14px;
+  height:30px ;
+  border-radius: 5px;
+}
+.sign-in:hover{
+  background-color: rgb(209, 21, 25);
+}
+.home{
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f562aaf4-5dbb-4603-a32b-6ef6c2230136/dh0w8qv-9d8ee6b2-b41a-4681-ab9b-8a227560dc75.jpg/v1/fill/w_1192,h_670,q_70,strp/the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6Ii9mL2Y1NjJhYWY0LTVkYmItNDYwMy1hMzJiLTZlZjZjMjIzMDEzNi9kaDB3OHF2LTlkOGVlNmIyLWI0MWEtNDY4MS1hYjliLThhMjI3NTYwZGM3NS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.FScrpAAFnKqBVKwe2syeiOww6mfH6avq-DRHZ_uFVNw");
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    color: white;
+}
+.section{
+    padding: 60px 50px;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: black;
+    color: white;
+  
+}
+h1,h2,h3,p{
+   padding: 0%;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 250px;
+  height: 300px;
+  border-radius: 10px;
+  padding: 10px;
+  background: linear-gradient(rgb(24, 5, 50),rgb(40, 7, 50));
+}
+.card2{
+    width: 1200px;
+    height: 50px;
+    background: #333;
+  border-radius: 5px;
+  font-size: 25px;
+  padding: 20px;
+}
+.card2:hover{
+  background: #676565;
+}
+h1{
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+   font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+}
+h3{
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+button{
+    background-color: red;
+    color: white;
+    border: none;
+}
+button:hover{
+    background-color: rgb(209, 21, 25);
+}
+.home-input button {
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.home-input input {
+  padding: 12px 15px;
+  font-size: 16px;
+  width: 300px;
+  border-radius: 5px;
+}
+.curve {
+  height: 100px;
+  border-top: 4px solid red;
+  border-radius: 50% 50% 0 0;
+  overflow: hidden;
+}
+.abc{
+  align-items: center;
+  text-align: center;
+}
+footer,section{
+    padding: 60px 50px;
+}
